@@ -8,25 +8,20 @@
 
 int main(void)
 {
-	int n;
-	int i = 0;
+	int tho;
+	int hun;
+	int ten;
+	int bas;
 
-	for (n = 0 ; n < 100 ; n++)
+for ( tho = 0 ; tho < 9 ; tho++)
+{	
+
+	for (hun = 0 ; hun < 9 ; hun++)
 	{
-		putchar(n / 10 + '0');
-		putchar(i + '0');
-		if (n < 99)
-		{
-			putchar(',');
-			putchar(32);
-		}
-		i++;
-		if (i > 9)
-		{
-			i = 0;
-		}
+	
+		for (ten = 0 ; ten < 10 ; ten++)
 	}
+}
 	putchar('\n');
 	return (0);
 }
-
